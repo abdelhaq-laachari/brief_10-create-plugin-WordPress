@@ -10,7 +10,7 @@
     <br>
     <img src="img/1.webp" alt="" style="width: 200px; margin:1rem;">
     <br>
-    1.2: After the downloading will complete, Wordpress will be in a zip file. So go and extract it on your pc.
+    1.2: After the downloading will complete, WordPress will be in a zip file. So go and extract it on your pc.
     <br>
     <img src="img/1.webp" alt="" style="width: 200px; margin:1rem;">
     <br>
