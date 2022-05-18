@@ -3,7 +3,7 @@
 <h3>How to install wordpress</h3>
 <hr>
 <p>
-    <h3>Step 1: Download and Extract Latest Version of WordPress from the internet..</h3> 
+    <h3>Step 1: Download and Extract Latest Version of WordPress from the internet.</h3> 
     <br> 
     <br>
     1.1: To do this, you have to go to the WordPress.org website to Download WordPress. Open the link, scroll down the page, and click on the download WordPress button as shown in the image below.   
