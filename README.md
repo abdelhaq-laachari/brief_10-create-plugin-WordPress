@@ -8,7 +8,7 @@
     <br>
     1.1: To do this, you have to go to the WordPress.org website to Download WordPress. Open the link, scroll down the page, and click on the download WordPress button as shown in the image below.   
     <br>
-    <img src="img/1.webp" alt="" style="width: 2000px; margin:1rem;">
+    <img src="img/1.webp" alt="" style="width: 200px; margin:1rem;">
     <br>
     1.2: After the downloading will complete, WordPress will be in a zip file. So go and extract it on your pc.
     <br>
