@@ -24,7 +24,7 @@
         $connection = mysqli_connect('localhost','root','');
         mysqli_select_db($connection,"wordpress");
 
-        $query = "CREATE TABLE wp_aa_form_table(id int NOT NULL PRIMARY KEY AUTO_INCREMENT, name varchar(255) NOT NULL, email varchar(55) NOT NULL,subject varchar(55) NOT NULL, message varchar(255) NOT NULL)";
+        $query = "CREATE TABLE wp_aa_form_table(id int NOT NULL PRIMARY KEY AUTO_INCREMENT, first_name varchar(255) NOT NULL, last_name varchar(255) NOT NULL, email varchar(55) NOT NULL, phone varchar(15) NOT NULL, subject varchar(55) NOT NULL, message varchar(255) NOT NULL)";
         // $result = $wpdb->query($query);
         $result = mysqli_query($connection, $query);
         return $result;
@@ -58,15 +58,16 @@
 
 
 
-    function admin_dashbord(){
-        add_menu_page('forms','Contact','manage_options','contact-dashbord','dashbord_admin_contact','dashicons-email',4);
+    function admin_dashboard(){
+        add_menu_page('forms','Contact','manage_options','contact-dashboard','dashboard_admin_contact','dashicons-email',4);
     }
 
 
-    add_action('admin_menu','admin_dashbord');
+    add_action('admin_menu','admin_dashboard');
     
-    function dashbord_admin_contact(){
-        require_once('dash_Plugin.php');
+    function dashboard_admin_contact(){
+        // require_once('dash_Plugin.php');
+        require_once('Setting.php');
     }
 
 
