@@ -67,7 +67,7 @@
     
     function dashboard_admin_contact(){
         // require_once('dash_Plugin.php');
-        require_once('Setting.php');
+        require_once('setting.php');
     }
 
 
